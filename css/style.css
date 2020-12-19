@@ -1,0 +1,48 @@
+*{margin: 0;}
+html{font-size: 10px;background-color: gray;}
+body{font-size: 1rem;}
+a{text-decoration: none;}
+
+header{width: 100%;height: 8rem;background-color: #fff;}
+header > nav {margin: auto;width: 102.4rem;height: 8rem;display:flex;justify-content: space-between;align-items: center;height: 8rem;}
+
+header > nav > .menu{display: inline-block;}
+header > nav > .menu > ul{list-style: none;}
+header > nav > .menu > ul > li{float: left;margin: 0rem 1.7rem;}
+header > nav > .menu > ul > li > a{color: #444444;font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 200;letter-spacing: -0.03rem;}
+header > nav > .menu > ul > li > a:hover{color: #999999;}
+
+section > .keyvisual {height: 75rem;background-color: #ffffff;}
+section > .keyvisual > .keyvisual_wrap {padding-top: 2rem;text-align: center;}
+
+
+
+section > .profile {background-image: url('../img/sub0.png');height: 90rem;}
+section > .profile > .profile_wrap {margin: auto;width: 50rem;}
+section > .profile > .profile_wrap > .profile_1 {padding-top: 8.2rem;}
+section > .profile > .profile_wrap > .profile_2 {margin-top: 5rem;}
+section > .profile > .profile_wrap > .profile_3 {margin-top: 5rem;}
+section > .profile > .profile_wrap > .profile_4 {margin-top: 5rem;}
+section > .profile > .profile_wrap > .profile_5 {margin-top: 5rem;}
+
+
+section > .pf_1 {background-color: #e0e1e3;height: 76rem;}
+section > .pf_1 > .pf_wrap {margin: auto;width: 102.4rem;text-align: center;}
+section > .pf_1 > .pf_wrap > .pf_1_img{}
+
+section > .pf_2 {background-color: #829caf;height: 62.8rem;}
+section > .pf_2 > .pf_wrap {margin: auto;width: 102.4rem;text-align: center;}
+section > .pf_2 > .pf_wrap > .pf_2_img{}
+
+section > .pf_3 {background-color: #cbd0d8;height: 76rem;}
+section > .pf_3 > .pf_wrap {margin: auto;width: 102.4rem;text-align: center;}
+section > .pf_3 > .pf_wrap > .pf_3_img{}
+
+section > .pf_4 {background-color: #ffffff;height: 76rem;}
+section > .pf_4 > .pf_wrap {margin: auto;width: 102.4rem;text-align: center;}
+section > .pf_4 > .pf_wrap > .pf_3_img{}
+
+footer{background-color: #969696;height: 11rem;}
+footer > .footer_wrap{margin: auto;width: 102.4rem;}
+footer > .footer_wrap > .footer_logo{float: left;padding-top: 4.2rem;}
+footer > .footer_wrap > .footer_txt{float: right;padding-top: 3rem;text-align: right;font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 300;letter-spacing: -0.03rem;color: #ffffff;}
